@@ -1,0 +1,19 @@
+{
+  "name": "view-units",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src/index.js --out-file index.js --source-maps",
+    "prepublish": "yarn build"
+  },
+  "browserslist": "> 0.25%, not dead",
+  "devDependencies": {
+    "@babel/cli": "^7.6.0",
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
