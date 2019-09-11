@@ -221,4 +221,17 @@ function vUnit(options) {
   }, vunit.options.viewportObserverInterval);
 }
 
+vUnit({
+  CSSMap: {
+    '.vh': {
+      property: 'height',
+      reference: 'vh'
+    },
+    '.vw': {
+      property: 'width',
+      reference: 'vw'
+    }
+  }
+});
+
 //# sourceMappingURL=index.js.map
