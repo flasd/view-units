@@ -15,7 +15,7 @@ export default function vUnit(options) {
   }
 
   // Just an alias for easier readability (and to preserve `this` context)
-  const vunit = this;
+  const vunit = {};
 
   // For extending the options
   const opts = options || {};

@@ -23,7 +23,7 @@ function vUnit(options) {
   } // Just an alias for easier readability (and to preserve `this` context)
 
 
-  var vunit = this; // For extending the options
+  var vunit = {}; // For extending the options
 
   var opts = options || {};
   vunit.options = {
